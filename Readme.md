@@ -10,12 +10,12 @@ to learn how to use Dapper using sqlite as the database.
 
 ### 1- clone the repository
 
-  git clone
+    git clone
 
 ### 2 - restore the project 
 
-  dotnet restore
+    dotnet restore
 
 ### 3 - Run the project
 
-  dotnet run
+    dotnet run
