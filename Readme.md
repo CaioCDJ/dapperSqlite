@@ -1,6 +1,10 @@
 
 <h1 align="center">Dapper Training</h1>
 
+<img src="./imgs/home.png">
+
+<br>
+
 Just an console app built with <a href="https://spectreconsole.net/">SpectreConsole</a> as an way 
 to learn how to use Dapper using sqlite as the database.
 
@@ -10,12 +14,16 @@ to learn how to use Dapper using sqlite as the database.
 
 ### 1- clone the repository
 
-  git clone
+    git clone https://github.com/CaioCDJ/dapperSqlite.git
+
+<h4 align="center">OR</h4>
+
+    git clone git@github.com:CaioCDJ/dapperSqlite.git
 
 ### 2 - restore the project 
 
-  dotnet restore
+    dotnet restore
 
 ### 3 - Run the project
 
-  dotnet run
+    dotnet run

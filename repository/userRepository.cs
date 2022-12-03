@@ -33,14 +33,14 @@ public class UserRepository{
 
     using var cnn = DbConnection.GetConnection();
     
-    cnn.Execute("UPDATE users (name,age) VALUES (@name,@age) WHERE id = @id", user);
+    cnn.Execute("UPDATE users SET name = @name,age = @age WHERE id = @id", user);
   }
   
   public static void remove(User user){
 
     using var cnn = DbConnection.GetConnection();
     
-    cnn.Execute("DELETE FROM user WHERE id = @id",user);
+    cnn.Execute("DELETE FROM users WHERE id = @id",user);
   }
 }
 
