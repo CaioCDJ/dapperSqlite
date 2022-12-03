@@ -19,7 +19,6 @@ to learn how to use Dapper using sqlite as the database.
 <h4 align="center">OR</h4>
 
     git clone git@github.com:CaioCDJ/dapperSqlite.git
-
 ### 2 - restore the project 
 
     dotnet restore
