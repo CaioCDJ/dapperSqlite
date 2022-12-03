@@ -10,14 +10,20 @@ public class Forms{
     User user = new User();
 
     user.name = AnsiConsole.Ask<string>("What's your [green]name[/]?");
-    user.email = AnsiConsole.Ask<string>("What's your [green]email[/]?");
+    user.age = int.Parse( AnsiConsole.Ask<string>("How old are you?") );
    
     return user;
   }
 
+  public static void proceed(){
+
+    AnsiConsole.Write("Press any key to proceed");
+    string i = Console.ReadLine();
+  }
+
   public static bool exit(){
 
-    if (!AnsiConsole.Confirm("Exit user control?"))
+    if (!AnsiConsole.Confirm("Do you realy want to exit?"))
     {
       AnsiConsole.MarkupLine("Ok... :(");
       return false;
