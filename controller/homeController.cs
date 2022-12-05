@@ -60,7 +60,7 @@ public class HomeController{
 
     User user = Menu.usersSelect(users, "Select an user");
    
-    if(Forms.exit($"Are you shore that you want to delete [red] {user.name} [/]")){
+    if(Forms.exit($"Are you sure that you want to delete [red] {user.name} [/]")){
       UserRepository.remove(user);
     
       Forms.proceed($"[bold]{user.name}[/] was deleted.");   

@@ -6,7 +6,7 @@
 <br>
 
 Just an console app built with <a href="https://spectreconsole.net/">SpectreConsole</a> as an way 
-to learn how to use Dapper using sqlite as the database.
+to learn how to use Dapper with sqlite as the database.
 
 
 ## To run the Project
